@@ -19,10 +19,10 @@ jobs:
       - name: Install Flutter
         uses: subosito/flutter-action@v2.12.0
       - name: Install dependencies & build APK
-        run: \
-        pushd mossbunker/ \
-        flutter pub get \
-        flutter build apk --release
+        run: |
+          pushd mossbunker/ 
+          flutter pub get 
+          flutter build apk --release
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
