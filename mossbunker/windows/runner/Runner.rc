@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "meticulo" "\0"
+            VALUE "FileDescription", "mossbunker" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "meticulo" "\0"
+            VALUE "InternalName", "mossbunker" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "meticulo.exe" "\0"
-            VALUE "ProductName", "meticulo" "\0"
+            VALUE "OriginalFilename", "mossbunker.exe" "\0"
+            VALUE "ProductName", "mossbunker" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

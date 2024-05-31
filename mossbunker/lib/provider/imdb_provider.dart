@@ -1,6 +1,6 @@
-import 'package:meticulo/model/rated_results.dart';
-import 'package:meticulo/provider/result_provider.dart';
-import 'package:meticulo/storage/abstract_storage.dart';
+import 'package:mossbunker/model/rated_results.dart';
+import 'package:mossbunker/provider/result_provider.dart';
+import 'package:mossbunker/storage/abstract_storage.dart';
 
 import '../api/api_client.dart';
 import '../model/result.dart';

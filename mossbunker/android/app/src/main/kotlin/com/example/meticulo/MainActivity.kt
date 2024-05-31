@@ -1,4 +1,4 @@
-package com.example.meticulo
+package com.example.mossbunker
 
 import io.flutter.embedding.android.FlutterActivity
 

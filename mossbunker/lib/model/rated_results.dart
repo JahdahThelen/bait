@@ -1,4 +1,4 @@
-import 'package:meticulo/model/result.dart';
+import 'package:mossbunker/model/result.dart';
 
 class RatedResults {
   Map<Result, int> ratedResults;

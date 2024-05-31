@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:meticulo/model/rated_results.dart';
+import 'package:mossbunker/model/rated_results.dart';
 import 'package:path_provider/path_provider.dart';
 
 import '../model/result.dart';

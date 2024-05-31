@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:meticulo/api/imdb_api_client.dart';
-import 'package:meticulo/provider/imdb_provider.dart';
-import 'package:meticulo/provider/result_provider.dart';
-import 'package:meticulo/storage/abstract_storage.dart';
-import 'package:meticulo/storage/local_file_storage.dart';
-import 'package:meticulo/ui/page/search.dart';
+import 'package:mossbunker/api/imdb_api_client.dart';
+import 'package:mossbunker/provider/imdb_provider.dart';
+import 'package:mossbunker/provider/result_provider.dart';
+import 'package:mossbunker/storage/abstract_storage.dart';
+import 'package:mossbunker/storage/local_file_storage.dart';
+import 'package:mossbunker/ui/page/search.dart';
 import 'package:provider/provider.dart';
 
 void main() {

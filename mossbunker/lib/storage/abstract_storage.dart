@@ -1,4 +1,4 @@
-import 'package:meticulo/model/rated_results.dart';
+import 'package:mossbunker/model/rated_results.dart';
 
 import '../model/result.dart';
 
