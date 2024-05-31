@@ -18,14 +18,13 @@ jobs:
           java-version: '17'
       - name: Install Flutter
         uses: subosito/flutter-action@v2.12.0
-      - name: Move to Project dir
-        run: pushd mossbunker/
-      - name: Install dependencies
-        run: flutter pub get
-      - name: Build APK
-        run: flutter build apk --release
+      - name: Install dependencies & build APK
+        run: \
+        pushd mossbunker/ \
+        flutter pub get \
+        flutter build apk --release
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: ${{env.FILENAME}}
-          path: build/app/outputs/flutter-apk/app-release.apk
+          path: mossbunker/build/app/outputs/flutter-apk/app-release.apk
